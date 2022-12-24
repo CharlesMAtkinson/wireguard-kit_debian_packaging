@@ -1,0 +1,5 @@
+wireguard-kit (1.0.1-1) unstable; urgency=low
+
+  * Initial release. Closes: #<TBC>
+
+ -- Charles Michael Atkinson <wireguard-kit@charlesmatkinson.org>  Sat, 24 Dec 2022 16:57:56 +0530

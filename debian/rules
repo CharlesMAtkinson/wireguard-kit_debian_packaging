@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+LC_ALL := C.UTF-8
+export LC_ALL
+
+%:
+	dh $@
+
+execute_before_dh_install:
+	debian/mk_htm_and_pdf_from_odts.sh -r usr/share/doc/wireguard-kit
+

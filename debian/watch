@@ -1,0 +1,4 @@
+version=4
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.source\.tgz%@PACKAGE@-$1.tgz%" \
+    https://github.com/CharlesMAtkinson/wireguard/releases \
+    .+/wireguard_v?(\d[\d.]*)\.source\.tgz debian uupdate
